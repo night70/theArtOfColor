@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 22cm;
+    height: 17cm;
+    border: solid 1px;
+    margin: auto;
+    /* background-color: rgb(152,45,89); */
+}
+#header{
+    height: 33%;
+}
+#captionDiv{
+    width: 66.66%;
+    height: 100%;
+    float: right;
+    /* background-color: blueviolet; */
+}
+#main #content{
+    height: 66%;
+    width: 100%;
+}
+#content .cubeHolder{
+    display: inline-flex;
+    margin: auto;
+    width: 33%;
+    height: 50%;
+}
+.cubeHolder{
+    background-color: black;
+    width: 33%;
+    height: 33%;
+    border: 1px white solid;
+}
+.cubeInside{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    /* border: solid 1px white; */
+}
+.cubeInsideInside{
+    margin: 26px auto;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(57, 57, 4);
+    /* border: solid 1px white; */
+}
